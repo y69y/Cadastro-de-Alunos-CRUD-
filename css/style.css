@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: chartreuse;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid chartreuse;
+    color: white;
+    outline: none;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+fieldset{
+    text-align: center;
+    border:3px solid chartreuse;
+}
+legend{
+    background: chartreuse;
+    color:black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.salvar{
+    background: none;
+    border: 2px solid chartreuse;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.salvar:hover{
+    color: black;
+    background: chartreuse;
+
+}
